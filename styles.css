@@ -21,7 +21,7 @@ body, html {
     background-color: white; /* White background for the box */
     border: 3px solid #333; /* Dark border for contrast */
     border-radius: 15px; /* Rounded corners */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Slight shadow for depth */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Shadow for depth */
 }
 
 /* Heading styling */
@@ -47,4 +47,19 @@ img {
     width: 100%;
     max-width: 200px;
     height: auto;
+}
+
+/* Signature styling */
+.signature {
+    font-size: 1.5em;
+    color: #333;
+    text-align: right;
+    align-self: flex-end; /* Right-aligns within the container */
+    margin-top: 20px; /* Adds space above the signature */
+}
+
+/* Individual font styles */
+.reenie-beanie {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 2.5em;
 }
